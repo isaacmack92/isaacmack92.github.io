@@ -236,11 +236,10 @@ h1 {
 .icons {
     width: 100%;
     margin-top: 10px;
-    text-align: center;
 }
 
 .icons a {
-    margin: 0 10%;
+    margin: 0 20px 0 0;
 }
 
 .icons img {
@@ -251,6 +250,7 @@ h1 {
 .follow {
     margin-top: 50px;
     color: #4ABDAC;
+    text-align: left;
 }
 
 #pay img {

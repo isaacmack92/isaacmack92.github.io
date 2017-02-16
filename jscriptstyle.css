@@ -1,0 +1,16 @@
+
+p {
+    font-size: 1em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#questionBox {
+    background-color: seagreen;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}

@@ -1,6 +1,7 @@
 /*This sheet contains all styling for my personal website*/
 
 /**********MAIN**********/
+
 body {
     margin: 0;
     background-color: #DFDCE3;
@@ -30,118 +31,56 @@ hr {
 h1 {
     font-size: 4em;
 }
+
 /**********HEADER*********/
 
-#headerInfo {
-    width: 80%;
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
     display: block;
-    margin: 150px auto 0;
-    color: white;
-    cursor: context-menu;
     text-align: center;
 }
 
-#headerImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-#headerInfo p {
-    text-align: center;
-}
-
-#nav {
-    width: 100%;
-    height: 80px;
-    white-space: nowrap;
-}
-
-#navList {
-    width: inherit;
-    height: inherit;
-    margin: -2% 0 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-#navList li {
+.navbar-nav > li {
     display: inline-block;
-    margin: 0 2%;
-    padding-top: 1.5%;
-}
-
-#navList a {
-    text-decoration: none;
-    color: #fff;
+    float: none;
     font-size: 1.5em;
-    letter-spacing: 1.5px;
-    font-weight: bold;
 }
 
-#navList a, #headerInfo p {
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
+.navbar-light .navbar-nav > li > a {
+    color: #fff;
 }
 
-#headerInfo h2 {
-    font-size: 4em;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-}
-
-#subHeader {
-    display: inline-block;
-    margin: 10% auto 0;
-}
-
-#subHeader p {
-    font-size: 2em;
-    letter-spacing: 1px;
-}
-
-#navList a:hover {
-    font-size: 1.8em;
-    color: #4ABDAC;
-}
-
-#headerInfo h2:hover {
-    font-size: 6em;
-    color: #4ABDAC;
-}
-
-#subHeader p:hover {
-    color: #4ABDAC;
-}
-
-#headerInfo p:hover {
-    color: #4ABDAC;
+.navbar.navbar-light {
+    margin-bottom: 0;
 }
 
 /**********CONTENT**********/
+
+.headerImg {
+    padding: 0;
+    margin: 0;
+}
+
 .section {
-    height: 700px;
-    padding: 4% 10% 4%;
+    padding: 4% 10% 8%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; 
     overflow: hidden;
 }
 
-.sectionAlt {
-    height: 700px;
-    padding: 4% 0 0;
+.sectionAlt, .sectionContact {
+    padding: 4% 0 8% 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; 
     overflow: hidden;
     background-color: #232b38;
+}
+
+.section h1, .sectionAlt h1, .sectionContact h1 {
+    margin-bottom: 3%;
 }
 
 .section h1 {
@@ -150,6 +89,10 @@ h1 {
 
 .sectionAlt h1, .sectionAlt h3 {
     color: #4ABDAC;
+}
+
+.sectionAlt h3 {
+    margin-top: 5%;
 }
 
 #summaryText {
@@ -185,21 +128,8 @@ h1 {
     display: block;
 }
 
-#extra {
-    margin-top: 100px;
-}
-
-.half {
-    width: 100%;
-    height: 600px;
-    padding: 80px 0;
-
-}
-
-.halfTwo {
-    width: 100%;
-    height: 600px;
-    padding: 100px;
+.contInfo {
+    text-align: center;
 
 }
 
@@ -214,19 +144,13 @@ h1 {
     margin: 0 auto;
 }
 
-.extra {
-    color: #4ABDAC;
-    margin: 40px 0;
-}
-
 .altColor {
     color: #4ABDAC;
-    margin-right: 10px;
 }
 
 .altPara {
     color: #4ABDAC;
-    margin-top: 50px;
+    margin-top: 2%;
 }
 
 #contactInfo {
@@ -235,27 +159,27 @@ h1 {
 
 .icons {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 2%;
 }
 
 .icons a {
-    margin: 0 20px 0 0;
+    margin: 0 4% 0 0;
 }
 
 .icons img {
-    width: 50px;
-    height: 50px;
+    width: 10%;
+    height: 10%;
 }
 
 .follow {
-    margin-top: 50px;
+    margin-top: 10%;
     color: #4ABDAC;
-    text-align: left;
+    text-align: center;
 }
 
 #pay img {
-    width: 80px;
-    height: 80px;
+    width: 20%;
+    height: 20%;
     display: inline-block;
     margin: 0 auto;
 }

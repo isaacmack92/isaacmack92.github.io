@@ -30,10 +30,10 @@ window.onload = function onLoad() {
         strokeWidth: 10
     });
     
-    skill3.setText("75%");
+    skill3.setText("40%");
     skill3.text.style.fontSize = "2em";
     skill3.text.style.color = "#fff";
-    skill3.animate(0.75);
+    skill3.animate(0.40);
     
     var skill4 = new ProgressBar.Circle('#skill4', {
         color: '#4ABDAC',
@@ -42,10 +42,10 @@ window.onload = function onLoad() {
         strokeWidth: 10
     });
     
-    skill4.setText("70%");
+    skill4.setText("10%");
     skill4.text.style.fontSize = "2em";
     skill4.text.style.color = "#fff";
-    skill4.animate(0.7);
+    skill4.animate(0.1);
 };
 
 var totalNum = 1;

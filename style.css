@@ -34,6 +34,10 @@ h1 {
 
 /**********HEADER*********/
 
+.navbar-light {
+
+}
+
 .navbar-nav {
     float: none;
     margin: 0 auto;
@@ -44,7 +48,7 @@ h1 {
 .navbar-nav > li {
     display: inline-block;
     float: none;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .navbar-light .navbar-nav > li > a {
@@ -128,9 +132,12 @@ h1 {
     display: block;
 }
 
-.contInfo {
+.contInfo, .contInfo1 {
     text-align: center;
+}
 
+.contInfo1 p {
+    margin: 20% 0 0 5%;
 }
 
 .resumeIcon img {
@@ -150,7 +157,7 @@ h1 {
 
 .altPara {
     color: #4ABDAC;
-    margin-top: 2%;
+    margin-bottom: 10%;
 }
 
 #contactInfo {

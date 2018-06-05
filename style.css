@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    font-family: 'Aldrich', Arial;
+    background-color: #DFDCE3;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.blue {
+    color: #232b38;
+}
+.blueBG {
+    background-color: #232b38;
+}
+
+.gray {
+    color: #DFDCE3;
+    text-shadow: 1px 1px #414a4c;
+}
+
+.lightBlue {
+    color: #4ABDAC;
+}
+
+.lightBlueBG {
+    background-color: #4ABDAC;
+}
+
+#frontHeader {
+    font-size: 3em;
+    background-color: #232b38;
+    border-radius: 25px;
+    margin: 20px 0;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+p {
+    font-size: 1.5em;
+    padding: 0 50px;
+    margin: 50px 0;
+}
+
+#profile img {
+    border-radius: 25px;
+    margin: 30px 0;
+    padding: 0 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+#akProj {
+    margin-top: 100px;
+    padding: 0 20%;
+}
+
+#fsnProj {
+    margin-top: 100px;
+    width: 200px;
+}
+
+#robotProj {
+    margin-top: 100px;
+    width: 250px;
+}
+
+
+.contImg {
+    width: 80px;
+    margin: 0 15px;
+}
+
+#contact {
+    font-size: 2.5em;
+}
+
+#links {
+    
+}
+
+.footer {
+    height: 60px;
+}
+
+.footer p {
+    margin: 15px 0 0;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
